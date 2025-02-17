@@ -6,7 +6,7 @@ Introduction
 
 This repository contains a **Bash script** that automates the creation of a PostgreSQL database, users, and tables. It also inserts sample book data, defines a function to add books, and grants appropriate permissions to different users.
 
-This project was developed as part of an **interview task** to demonstrate database automation using Bash and PostgreSQL.
+This project was developed to demonstrate database automation using Bash and PostgreSQL.
 
 Features
 --------
@@ -53,7 +53,10 @@ Installation & Setup
 --------------------
 
 ### Step 1: Clone the Repository
-`git clone https://github.com/YOUR_GITHUB_USERNAME/database-automation.git  cd database-automation`
+```
+git clone https://github.com/YucelFuat/Database-Automation.git  
+cd database-automation
+```
 
 ### Step 2: Install PostgreSQL (If Not Installed)
 `sudo apt update  sudo apt install postgresql postgresql-contrib -y`
